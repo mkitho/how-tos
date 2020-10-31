@@ -1,8 +1,10 @@
 # Connecting to DELL IPMI via javaws
 
 Tested working on
-|Date | Oct 31, 2020|
-|-|-|
+
+| | |
+|:-|-:|
+|Date|Oct 31, 2020|
 |Java|1.8.0-271|
 |iDRAC6 firmware version|1.85 (Build 03)|
 
@@ -67,7 +69,7 @@ If you have tried solutions from other people before coming to this guide, chanc
 
 
 ### Step 4. Launch DELL virtual console
-Download the `viewer.jnlp` file again from the iDRAC6 web UI and launch it again. It should now work perfectly.
+Download the `viewer.jnlp` file again from the iDRAC6 web UI and launch it. It should now work perfectly.
 
 ## References
 - https://www.youtube.com/watch?v=qTdaeic6ttU&ab_channel=ink0gnit0
