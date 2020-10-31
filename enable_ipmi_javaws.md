@@ -47,7 +47,7 @@ In the solution that follows, we are going to lift this default restriction from
     jdk.jar.disabledAlgorithms=MD2, RSA keySize < 1024, \
         DSA keySize < 1024, include jdk.disabled.namedCurves
     ```
-4. Copy then comment out the original lines for `jdk.tls.disabledAlgorithms`. Delete MD5withRSA from the list, as follows:
+4. Copy then comment out the original lines for `jdk.tls.disabledAlgorithms`. Delete RC4 and MD5withRSA from the list, as follows:
     ```
     # jdk.tls.disabledAlgorithms=SSLv3, RC4, DES, MD5withRSA, DH keySize < 1024, \
     #    EC keySize < 224, 3DES_EDE_CBC, anon, NULL, \
